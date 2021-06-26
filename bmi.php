@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
     <title>Twoje BMI</title>
     <link rel="stylesheet" href="styl3.css">
 </head>
@@ -28,19 +28,19 @@
                 <th>Wartość maksymalna</th>
             </tr>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
+                <td></td>
+                <td></td>
+                <td></td>
             </tr>
         </table>
 
@@ -48,8 +48,9 @@
 
     <div id="podzial">
 
-        <div id="lewy">Podaj wagę i wzrost
-            <form action="bmi.php" method="post">
+        <div id="lewy">
+            <h2>Podaj wagę i wzrost</h2>
+            <form action="bmi.php" metdod="post">
                 Waga: <input type="number" min="1" name="waga">
                 Wzrost: <input type="number" min="1" name="wzrost">
                 <button type="submit">Oblicz i zapamientaj wynik</button>
